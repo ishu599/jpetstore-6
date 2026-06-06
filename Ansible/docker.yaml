@@ -18,8 +18,8 @@
     - name: Log in to Docker Hub
       community.docker.docker_login:
         registry_url: https://index.docker.io/v1/
-        username: harshitgupta21
-        password: <password>
+        username: ishu599
+        password: Upsilon@123
 
     - name: Push image
       command: docker push harshitgupta21/petstore:latest
